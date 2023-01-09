@@ -22,6 +22,7 @@ function UniqueEditor({value, setValue, language}) {
 
     const handleChange = (editor, data, value) => {
         setValue(value);
+        console.log("ED", editor, "DATA", data)
     }
 
     return (

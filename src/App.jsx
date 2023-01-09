@@ -37,20 +37,19 @@ function App() {
 
   return (
     <div className="App">
-        
+      <div className="title">Code Editor</div>
       <div className="editor-container">
-
         <UniqueEditor value={htmlValue} setValue={setHtmlValue} language="html"/>
         <UniqueEditor value={cssValue} setValue={setCssValue} language="css"/>
         <UniqueEditor value={javascriptValue} setValue={setJavascriptValue} language="javascript"/>
       </div>
 
       <div className="iframe-container">
+
         <iframe
             srcDoc={content}
             title="output"
-            sandbox="allow-scripts"
-            frameBorder="1"
+            sandbox="allow-scripts allow-same-origin"
             width="100%"
             height="100%"
         />
