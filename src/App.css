@@ -1,0 +1,56 @@
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.editor-container{
+  padding-top: 0.4%;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.react-codemirror2>div:first-of-type{
+  display: none !important;
+}
+
+.react-codemirror2{
+  /* width: 30% !important; */
+}
+
+
+.editor{
+  flex: 1;
+  border-radius: 5px;
+}
+
+
+.editor-html{
+  border: 3px solid #FF5733;
+  background-color:  #FF5733;
+}
+
+
+.editor-css{
+  border: 3px solid #264de4;
+  background-color: #264de4;
+}
+
+.editor-javascript{
+  border: 3px solid #F0DB4F;
+  background-color: #F0DB4F;
+}
+
+.iframe-container{
+  width: 50%;
+  margin: 5rem auto;
+  border: none !important;
+}
+
+iframe{
+  border: 2px solid gray;
+  border-radius: 5px;
+}
