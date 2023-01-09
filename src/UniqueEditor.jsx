@@ -20,9 +20,14 @@ import { Controlled as ControlledEditorComponent } from 'react-codemirror2';
 
 function UniqueEditor({value, setValue, language}) {
 
+    /**
+     * 
+     * @param {*} editor 
+     * @param {*} data 
+     * @param {*} value 
+     */
     const handleChange = (editor, data, value) => {
         setValue(value);
-        console.log("ED", editor, "DATA", data)
     }
 
     return (

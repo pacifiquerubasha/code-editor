@@ -30,7 +30,7 @@ function App() {
           </html>
         `
       )
-    }, 250);
+    }, 300);
     return () => clearTimeout(timeOut)
 
   }, [htmlValue, cssValue, javascriptValue])
